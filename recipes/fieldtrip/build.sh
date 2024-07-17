@@ -42,4 +42,5 @@ fi
 
 #to copy package archive from local
 #  --copy ${toolName}${toolVersion}_mcr2021b.tar.gz /opt/${toolName}-${toolVersion}.tar.gz \
-#  --run="tar -xzf /opt/${toolName}-${toolVersion}.tar.gz -C /opt/${toolName}-${toolVersion}/ --strip-components 1" \
+#  --run="tar -xzf /opt/${toolName}-${toolVersion}.tar.gz -C /opt/${toolName}-${toolVersion}/ --strip-components 1 \ 
+#     && chmod +x /opt/${toolName}-${toolVersion}/*" \
